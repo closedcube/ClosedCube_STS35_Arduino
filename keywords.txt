@@ -1,0 +1,25 @@
+##################################################################
+# Syntax Coloring Map For
+# Arduino library for Sensirion STS35 High-Accuracy Digital Temperature Sensor
+##################################################################
+
+##################################################################
+# Datatypes (KEYWORD1)
+##################################################################
+
+ClosedCube	KEYWORD1
+Sensor	KEYWORD1
+STS35	KEYWORD1
+
+
+##################################################################
+# Methods and Functions (KEYWORD2)
+##################################################################
+
+address	KEYWORD2
+readTemperature	KEYWORD2
+readT	KEYWORD2
+
+
+
+### Updated: Wednesday, 06 March 2019 at 17:30:39 GMT-00:00

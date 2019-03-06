@@ -1,3 +1,12 @@
+/*
+
+Example: sts35demo
+
+Arduino library for Arduino library for Sensirion STS35 High-Accuracy Digital Temperature Sensor
+version 2019.03.06.1
+
+---
+
 Copyright (c) 2018-2019, ClosedCube
 All rights reserved.
 
@@ -26,3 +35,29 @@ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
 WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+*/
+
+#include "ClosedCube_STS35.h"
+
+ClosedCube::Sensor::STS35 sts35;
+
+void setup() {
+    Wire.begin();
+
+    Serial.begin(9600);
+    Serial.println("ClosedCube STS35 Arduino Demo");
+
+    sts35.address(0x4B); // I2C Address: either 0x4A or 0x04B
+
+}
+
+void loop() {
+    Serial.print("T=");
+    Serial.print(sts35.readTemperature());
+    Serial.print(" C\n");
+    delay(333); // 1/3 second delay
+}
+
+
+

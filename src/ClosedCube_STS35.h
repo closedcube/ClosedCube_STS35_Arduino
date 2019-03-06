@@ -1,3 +1,10 @@
+/*
+
+Arduino library for Arduino library for Sensirion STS35 High-Accuracy Digital Temperature Sensor
+version 2019.03.06.1
+
+---
+
 Copyright (c) 2018-2019, ClosedCube
 All rights reserved.
 
@@ -26,3 +33,43 @@ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
 WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+*/
+
+#ifndef CLOSEDCUBE_STS35_ARDUINO_H
+#define CLOSEDCUBE_STS35_ARDUINO_H
+
+#include "ClosedCube_I2C.h"
+
+namespace ClosedCube {
+
+    namespace Sensor {
+
+        class STS35 {
+
+        public:
+            STS35();
+
+            STS35(uint8_t address);
+
+            void address(uint8_t address);
+
+            void heaterOn();
+
+            void heaterOff();
+
+            float readTemperature();
+
+            float readT();
+
+        private:
+            ClosedCube::Driver::I2CDevice _sensor;
+
+            float calculateTemperature(uint16_t t_raw);
+            uint8_t calculateCrc(uint8_t data[]);
+        };
+    }
+}
+
+
+#endif
