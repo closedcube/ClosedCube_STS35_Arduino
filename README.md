@@ -36,7 +36,7 @@ ClosedCube STS35 +/-0.1C High-Accuracy Digital Temperature Sensor Breakout
 
 [![](http://images.closedcube.uk/logo/github/tindie.png)](https://www.tindie.com/stores/closedcube/)
 
-https://www.tindie.com/products/10182
 
 
-Updated: Wednesday, 06 March 2019 at 17:30:39 GMT-00:00
+
+Updated: Wednesday, 06 March 2019 at 17:33:44 GMT-00:00
