@@ -1,6 +1,11 @@
 ClosedCube Arduino Library for
-ClosedCube STS35 +/-0.1C High-Accuracy Digital Temperature Sensor Breakout
+ClosedCube STS35 High-Accuracy +/-0.1C Digital Temperature Sensor Breakout
 ===========================================================================
+
+This is a ClosedCube breakout boards for Sensiron STS35 High-Accuracy +/-0.1C Digital Temperature Sensor.
+
+The board* populated with 4-Way DIP switch that allows to change I2C address and turn off/on pull-up resistors if more than one sensor board required on the same I2C bus.
+
 
 **Features:**
 
@@ -9,6 +14,8 @@ ClosedCube STS35 +/-0.1C High-Accuracy Digital Temperature Sensor Breakout
 - Wide supply voltage range, from 2.15 V to 5.5 V
 - Very fast start-up and measurement time
 - I2C address either 0x4A or 0x4B
+
+* - with DIP switch
 
 ### Where to Buy?
 
@@ -39,4 +46,4 @@ ClosedCube STS35 +/-0.1C High-Accuracy Digital Temperature Sensor Breakout
 
 
 
-Updated: Wednesday, 06 March 2019 at 17:33:44 GMT-00:00
+Updated: Wednesday, 06 March 2019 at 18:30:11 GMT-00:00
