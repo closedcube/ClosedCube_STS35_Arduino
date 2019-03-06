@@ -43,7 +43,8 @@ The board* populated with 4-Way DIP switch that allows to change I2C address and
 
 [![](http://images.closedcube.uk/logo/github/tindie.png)](https://www.tindie.com/stores/closedcube/)
 
+https://www.tindie.com/products/16387/
 
 
 
-Updated: Wednesday, 06 March 2019 at 18:30:11 GMT-00:00
+Updated: Wednesday, 06 March 2019 at 18:31:28 GMT-00:00
