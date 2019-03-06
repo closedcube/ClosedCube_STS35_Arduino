@@ -41,7 +41,7 @@ The board^ populated with 4-Way DIP switch that allows to change I2C address and
 
 | Region  | Link |
 | ------------- | ------------- |
-| Europe,Asia,Oceania |  TBD  |
+| Europe,Asia,Oceania |  https://www.ebay.co.uk/itm/183718049550  |
 | USA  | TBD |
 
 
@@ -51,4 +51,4 @@ https://www.tindie.com/products/16387/
 
 
 
-Updated: Wednesday, 06 March 2019 at 19:52:39 GMT-00:00
+Updated: Wednesday, 06 March 2019 at 21:46:52 GMT-00:00
