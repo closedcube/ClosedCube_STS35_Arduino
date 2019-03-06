@@ -4,7 +4,7 @@ ClosedCube STS35 High-Accuracy +/-0.1C Digital Temperature Sensor Breakout
 
 This is a ClosedCube breakout boards for Sensiron STS35 High-Accuracy +/-0.1C Digital Temperature Sensor.
 
-The board* populated with 4-Way DIP switch that allows to change I2C address and turn off/on pull-up resistors if more than one sensor board required on the same I2C bus.
+The board^ populated with 4-Way DIP switch that allows to change I2C address and turn off/on pull-up resistors if more than one sensor board required on the same I2C bus.
 
 
 **Features:**
@@ -15,7 +15,7 @@ The board* populated with 4-Way DIP switch that allows to change I2C address and
 - Very fast start-up and measurement time
 - I2C address either 0x4A or 0x4B
 
-* - with DIP switch
+^ - with DIP switch
 
 ### Where to Buy?
 
@@ -47,4 +47,4 @@ https://www.tindie.com/products/16387/
 
 
 
-Updated: Wednesday, 06 March 2019 at 18:31:28 GMT-00:00
+Updated: Wednesday, 06 March 2019 at 18:36:01 GMT-00:00
