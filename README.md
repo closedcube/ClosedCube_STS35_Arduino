@@ -17,6 +17,10 @@ The board^ populated with 4-Way DIP switch that allows to change I2C address and
 
 ^ - with DIP switch
 
+**Requirements:**
+
+- ClosedCube I2C Driver (Wrapper) https://github.com/closedcube/ClosedCube_I2C_Arduino
+
 ### Where to Buy?
 
 [![](http://images.closedcube.uk/logo/github/amazon.png)]()
@@ -47,4 +51,4 @@ https://www.tindie.com/products/16387/
 
 
 
-Updated: Wednesday, 06 March 2019 at 18:36:01 GMT-00:00
+Updated: Wednesday, 06 March 2019 at 19:52:39 GMT-00:00
