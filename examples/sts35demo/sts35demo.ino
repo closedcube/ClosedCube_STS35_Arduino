@@ -50,9 +50,7 @@ void setup() {
     Serial.begin(UART_BAUD);
     Wire.begin();
 
-    Serial.begin(9600);
     Serial.println("ClosedCube STS35 Arduino Demo");
-
     sts35.address(STS35_I2C_ADDRESS); // I2C Address: either 0x4A or 0x04B
 
 }
