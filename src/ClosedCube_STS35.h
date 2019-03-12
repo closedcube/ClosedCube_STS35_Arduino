@@ -1,7 +1,7 @@
 /*
 
 Arduino library for Arduino library for Sensirion STS35 High-Accuracy +/-0.1C Digital Temperature Sensor
-version 2019.3.10
+version 2019.3.12
 
 ---
 
@@ -45,6 +45,12 @@ namespace ClosedCube {
 
     namespace Sensor {
 
+        typedef enum {
+            STS35_REPEATABILITY_HIGH,
+            STS35_REPEATABILITY_MEDIUM,
+            STS35_REPEATABILITY_LOW,
+        } STS35_Repeatability;
+
         class STS35 {
 
         public:
@@ -58,12 +64,23 @@ namespace ClosedCube {
 
             void heaterOff();
 
+            void clockStrechingOn();
+
+            void clockStrechingOff();
+
+            void setRepeatability(STS35_Repeatability);
+
             float readTemperature();
 
             float readT();
 
         private:
             ClosedCube::Driver::I2CDevice _sensor;
+            STS35_Repeatability _repeatability = STS35_REPEATABILITY_HIGH;
+            bool _clockStreching = true;
+            bool _singleShotMode = true;
+
+            uint8_t readSignleShot(byte *buf);
 
             float calculateTemperature(uint16_t t_raw);
             uint8_t calculateCrc(uint8_t data[]);
