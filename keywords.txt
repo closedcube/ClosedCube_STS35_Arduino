@@ -19,7 +19,12 @@ STS35	KEYWORD1
 address	KEYWORD2
 readTemperature	KEYWORD2
 readT	KEYWORD2
+heaterOn	KEYWORD2
+heaterOff	KEYWORD2
+clockStrechingOn	KEYWORD2
+clockStrechingOff	KEYWORD2
+setRepeatability	KEYWORD2
 
 
 
-### Updated: Tuesday, 12 March 2019 at 22:53:15 GMT-00:00
+### Updated: Wednesday, 13 March 2019 at 16:03:08 GMT-00:00
