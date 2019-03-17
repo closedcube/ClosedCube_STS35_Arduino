@@ -32,9 +32,6 @@ The board^ populated with 4-Way DIP switch that allows to change I2C address and
 | France (FR) | TBD | TBD |
 | Italy (IT) | TBD | TBD |
 | Spain (ES) | TBD | TBD |
-| USA | TBD | TBD |
-| Canada | TBD | TBD |
-| Mexico | TBD | TBD |
 
 
 [![](http://images.closedcube.uk/logo/github/ebay.gif)](http://www.ebay.co.uk/itm/182877251201)
@@ -51,4 +48,4 @@ https://www.tindie.com/products/16387/
 
 
 
-Updated: Wednesday, 13 March 2019 at 16:03:08 GMT-00:00
+Updated: Sunday, 17 March 2019 at 23:50:41 GMT-00:00
