@@ -27,8 +27,8 @@ The board^ populated with 4-Way DIP switch that allows to change I2C address and
 
 | Region  | 2 pcs | pre-soldered 2 pcs|
 | ------------- | ------------- | ------------- |
-| UK | TBD | TBD|
-| Germany (DE) | TBD| TBD |
+| UK | https://www.amazon.co.uk/dp/B07QNBMXTN | https://www.amazon.co.uk/dp/B07QNH6PX3 |
+| Germany (DE) | https://www.amazon.de/dp/B07QNBMXTN | https://www.amazon.de/dp/B07QNH6PX3 |
 | France (FR) | TBD | TBD |
 | Italy (IT) | TBD | TBD |
 | Spain (ES) | TBD | TBD |
@@ -48,4 +48,4 @@ https://www.tindie.com/products/16387/
 
 
 
-Updated: Sunday, 14 April 2019 at 20:55:53 GMT-00:00
+Updated: Wednesday, 24 April 2019 at 21:36:41 GMT-00:00
