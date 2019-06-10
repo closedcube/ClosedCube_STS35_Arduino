@@ -3,7 +3,7 @@
 Example: sts35demo
 
 Arduino library for Arduino library for Sensirion STS35 High-Accuracy +/-0.1C Digital Temperature Sensor
-version 2019.5.2
+version 2019.6.10
 
 ---
 
@@ -41,10 +41,9 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "ClosedCube_STS35.h"
 
 #define UART_BAUD 9600
-#define STS35_I2C_ADDRESS	0x4B
+#define STS35_I2C_ADDRESS   0x4B
 
 ClosedCube::Sensor::STS35 sts35;
-
 
 void setup() {
     Serial.begin(UART_BAUD);
@@ -52,7 +51,6 @@ void setup() {
 
     Serial.println("ClosedCube STS35 Arduino Demo");
     sts35.address(STS35_I2C_ADDRESS); // I2C Address: either 0x4A or 0x04B
-
 }
 
 void loop() {

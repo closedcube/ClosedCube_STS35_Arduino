@@ -1,7 +1,7 @@
 /*
 
 Arduino library for Arduino library for Sensirion STS35 High-Accuracy +/-0.1C Digital Temperature Sensor
-version 2019.5.2
+version 2019.6.10
 
 ---
 
@@ -40,7 +40,9 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "ClosedCube_STS35.h"
 
 ClosedCube::Sensor::STS35::STS35() {
+}
 
+ClosedCube::Sensor::STS35::STS35(ClosedCube::Driver::I2CDevice device): _sensor(device) {    
 }
 
 ClosedCube::Sensor::STS35::STS35(uint8_t address) {
@@ -99,10 +101,12 @@ uint8_t ClosedCube::Sensor::STS35::readSignleShot(byte *buf) {
         case STS35_REPEATABILITY_LOW:
             cmd = _clockStreching ? 0x2C10 : 0x2416;
             break;
+        default:
+            cmd = _clockStreching ? 0x2C0D : 0x240B;
+            break;
     }
     _sensor.writeWord(cmd);
     delay(5);
-
     _sensor.readBytes(buf,(uint8_t)3);
 
     return 0;
