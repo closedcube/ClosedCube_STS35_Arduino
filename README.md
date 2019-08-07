@@ -23,7 +23,7 @@ The board^ populated with 4-Way DIP switch that allows to change I2C address and
 
 ### Where to Buy?
 
-[![](http://images.closedcube.uk/logo/github/amazon.png)]()
+![Amazon Logo](http://images.closedcube.uk/logo/github/amazon.png)
 
 | Region  | 2 pcs | pre-soldered 2 pcs|
 | ------------- | ------------- | ------------- |
@@ -48,4 +48,4 @@ https://www.tindie.com/products/16387/
 
 
 
-Updated: Wednesday, 07 August 2019 at 09:35:06 GMT-00:00
+Updated: Wednesday, 07 August 2019 at 09:37:16 GMT-00:00
