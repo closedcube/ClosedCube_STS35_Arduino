@@ -17,6 +17,10 @@ The board^ populated with 4-Way DIP switch that allows to change I2C address and
 
 ^ - with DIP switch
 
+**Manufacturer Part No:**
+- B022_STS35
+- B022_STS35_1MM (1mm Series boards)
+
 **Requirements:**
 
 - ClosedCube I2C Driver (Wrapper) https://github.com/closedcube/ClosedCube_I2C_Arduino
@@ -33,9 +37,7 @@ The board^ populated with 4-Way DIP switch that allows to change I2C address and
 | Italy (IT) | TBD | TBD |
 | Spain (ES) | TBD | TBD |
 
-
-![eBay Logo](http://images.closedcube.uk/logo/github/ebay.gif)]
-http://images.closedcube.uk/logo/github/ebay.gif
+![eBay Logo](http://images.closedcube.uk/logo/github/ebay.gif)
 
 | Region  | Link |
 | ------------- | ------------- |
@@ -43,10 +45,10 @@ http://images.closedcube.uk/logo/github/ebay.gif
 | USA  | TBD |
 
 
-[![](http://images.closedcube.uk/logo/github/tindie.png)](https://www.tindie.com/stores/closedcube/)
+![Tindie Logo](http://images.closedcube.uk/logo/github/tindie.png)
 
 https://www.tindie.com/products/16387/
 
 
 
-Updated: Wednesday, 07 August 2019 at 09:38:26 GMT-00:00
+Updated: Wednesday, 07 August 2019 at 20:24:11 GMT-00:00
