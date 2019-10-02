@@ -27,7 +27,7 @@ The board^ populated with 4-Way DIP switch that allows to change I2C address and
 
 ### Where to Buy?
 
-![Amazon Logo](http://images.closedcube.uk/logo/github/amazon.png)
+![Amazon Logo](https://images.closedcube.uk/logo/github/amazon.png)
 
 | Region  | 2 pcs | pre-soldered 2 pcs|
 | ------------- | ------------- | ------------- |
@@ -37,7 +37,7 @@ The board^ populated with 4-Way DIP switch that allows to change I2C address and
 | Italy (IT) | TBD | TBD |
 | Spain (ES) | TBD | TBD |
 
-![eBay Logo](http://images.closedcube.uk/logo/github/ebay.gif)
+![eBay Logo](https://images.closedcube.uk/logo/github/ebay.gif)
 
 | Region  | Link |
 | ------------- | ------------- |
@@ -45,10 +45,10 @@ The board^ populated with 4-Way DIP switch that allows to change I2C address and
 | USA  | TBD |
 
 
-![Tindie Logo](http://images.closedcube.uk/logo/github/tindie.png)
+![Tindie Logo](https://images.closedcube.uk/logo/github/tindie.png)
 
 https://www.tindie.com/products/16387/
 
 
 
-Updated: Wednesday, 07 August 2019 at 20:24:11 GMT-00:00
+Updated: Wednesday, 02 October 2019 at 20:13:15 GMT-00:00
