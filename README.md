@@ -6,7 +6,6 @@ This is a ClosedCube breakout boards for Sensiron STS35 High-Accuracy +/-0.1C Di
 
 The board^ populated with 4-Way DIP switch that allows to change I2C address and turn off/on pull-up resistors if more than one sensor board required on the same I2C bus.
 
-
 **Features:**
 
 - Typical accuracy of up to +/- 0.1 °C
@@ -18,6 +17,7 @@ The board^ populated with 4-Way DIP switch that allows to change I2C address and
 ^ - with DIP switch
 
 **Manufacturer Part No:**
+
 - B022_STS35
 - B022_STS35_1MM (1mm Series boards)
 
@@ -51,4 +51,4 @@ https://www.tindie.com/products/16387/
 
 
 
-Updated: Wednesday, 02 October 2019 at 20:13:15 GMT-00:00
+Updated: Friday, 04 October 2019 at 21:11:15 GMT-00:00
