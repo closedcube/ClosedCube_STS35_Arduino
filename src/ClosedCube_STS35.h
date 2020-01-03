@@ -1,11 +1,11 @@
 /*
 
 Arduino library for Arduino library for Sensirion STS35 High-Accuracy +/-0.1C Digital Temperature Sensor
-version 2019.10.10
+version 2020.1.3
 
 ---
 
-Copyright (c) 2018-2019, ClosedCube
+Copyright (c) 2018-2020, ClosedCube
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without 
