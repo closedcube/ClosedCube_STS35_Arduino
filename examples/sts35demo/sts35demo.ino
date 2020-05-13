@@ -3,7 +3,7 @@
 Example: sts35demo
 
 Arduino library for Arduino library for Sensirion STS35 High-Accuracy +/-0.1C Digital Temperature Sensor
-version 2020.4.22
+version 2020.5.13
 
 ---
 
