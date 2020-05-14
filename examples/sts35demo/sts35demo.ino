@@ -3,7 +3,7 @@
 Example: sts35demo
 
 Arduino library for Arduino library for Sensirion STS35 High-Accuracy +/-0.1C Digital Temperature Sensor
-version 2020.5.13
+version 2020.5.14
 
 ---
 
@@ -56,8 +56,8 @@ void setup() {
 void loop() {
     Serial.print("T=");
     Serial.print(sts35.readTemperature());
-    Serial.print(" C\n");
-    Serial.println();
+    Serial.println(" C");
+    
     delay(333); // 1/3 second delay
 }
 
