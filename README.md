@@ -33,9 +33,10 @@ The board^ populated with 4-Way DIP switch that allows to change I2C address and
 | ------------- | ------------- | ------------- |
 | UK | https://www.amazon.co.uk/dp/B07QNBMXTN | https://www.amazon.co.uk/dp/B07QNH6PX3 |
 | Germany (DE) | https://www.amazon.de/dp/B07QNBMXTN | https://www.amazon.de/dp/B07QNH6PX3 |
-| France (FR) | TBD | TBD |
-| Italy (IT) | TBD | TBD |
-| Spain (ES) | TBD | TBD |
+| France (FR) | https://www.amazon.de/dp/B07QNBMXTN | https://www.amazon.de/dp/B07QNH6PX3 |
+| Italy (IT) | https://www.amazon.it/dp/B07QNBMXTN | https://www.amazon.it/dp/B07QNH6PX3 |
+| Spain (ES) | https://www.amazon.es/dp/B07QNBMXTN | https://www.amazon.es/dp/B07QNH6PX3 |
+| Netherlands (NL) | https://www.amazon.nl/dp/B07QNBMXTN | https://www.amazon.nl/dp/B07QNH6PX3 |
 
 ![eBay Logo](https://images.closedcube.uk/logo/github/ebay.gif)
 
@@ -51,4 +52,4 @@ https://www.tindie.com/products/16387/
 
 
 
-Updated: Friday, 15 May 2020 at 23:05:30 GMT-00:00
+Updated: Sunday, 17 May 2020 at 21:26:56 GMT-00:00
